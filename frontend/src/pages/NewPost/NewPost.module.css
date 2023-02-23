@@ -1,0 +1,47 @@
+.newpost {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.newpost h2 {
+  font-size: 2.4rem;
+  color: purple;
+}
+
+.newpost form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 500px;
+}
+
+.input label {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.input input {
+  height: 2.2rem;
+  font-size: 1.3rem;
+  padding: 5px 0;
+}
+
+.input textarea {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,31 @@
+.btn-primary {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  transition: 300ms;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: rgb(238, 155, 0);
+}
+
+.btn-secondary {
+  padding: 1rem 3rem;
+  background-color: white;
+  font-size: 1.5rem;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  transition: 300ms;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: orange;
+  color: inherit;
+  color: white;
+}

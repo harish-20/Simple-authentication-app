@@ -1,0 +1,51 @@
+.login {
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.login form {
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 3rem 1rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 5px 2px 5px rgb(59, 59, 59);
+}
+
+.login h2 {
+  font-size: 2.4rem;
+  color: indigo;
+  letter-spacing: 0.1rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.input label {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: orange;
+}
+
+.input input {
+  height: 2.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1.4px solid gray;
+  border-radius: 5px;
+}
+
+.actions {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
